@@ -7,6 +7,10 @@ With the rapid spread of misinformation, identifying fake news has become crucia
 
 The core model is trained using Python, Scikit-Learn, and NLTK (for stemming and text processing). We extract features from the news text using TF-IDF Vectorization and then apply a classification algorithm to predict the news's authenticity.
 
+## 📊 Dataset
+Due to GitHub's file size limits, the `train.csv` dataset is hosted externally. You can download the dataset here:
+[Download train.csv from Google Drive](https://drive.google.com/file/d/1edqVek---c_bcnxonMaxT5rI0a5KNepT/view?usp=drive_link)
+
 ## ✨ Features
 - **Interactive UI**: Built with Streamlit for a fast and beautiful web interface.
 - **NLP Text Processing**: Uses `PorterStemmer` and stop-words removal to process incoming text.
